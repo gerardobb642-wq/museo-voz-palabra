@@ -140,3 +140,13 @@ dl.ficha dd { margin: 2px 0 0; font-size: 19px; line-height: 1.35; }
 .refs p { font-size: 17px; line-height: 1.45; margin: 0 0 12px; padding-left: 1.6em; text-indent: -1.6em; }
 .refs .cred p { color: var(--muted); font-size: 16px; padding-left: 0; text-indent: 0; }
 @media (max-width: 860px) { .refs { grid-template-columns: 1fr; } }
+
+/* celular: controles de la ventana en una línea */
+.x { white-space: nowrap; }
+@media (max-width: 560px) {
+  .tabs { gap: 16px; }
+  .tabs button { font-size: 16px; }
+  .card-kicker { font-size: 15px; }
+  .hud-sala { font-size: 15px; }
+  .hud-nav button { font-size: 15px; padding: 6px 10px; }
+}
