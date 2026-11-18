@@ -7,36 +7,28 @@
 <meta name="description" content="Museo virtual en 3D de literatura en español: seis salas, de la Edad Media al Naturalismo.">
 <link rel="preload" href="fonts/IbarraRealNova.ttf" as="font" type="font/ttf" crossorigin>
 <link rel="stylesheet" href="css/museo.css">
+<script type="importmap">{ "imports": { "three": "./js/three.module.min.js" } }</script>
 </head>
 <body>
 <canvas id="scene" aria-label="Recorrido en 3D del museo"></canvas>
 
 <header class="hud" id="hud" hidden>
-  <p class="hud-where"><span class="hud-museo">La voz y la palabra</span><span class="hud-sala" id="hudSala">Vestíbulo</span></p>
+  <p class="hud-sala" id="hudSala">Vestíbulo</p>
   <nav class="hud-nav">
     <button type="button" id="btnPlano">Plano</button>
     <button type="button" id="btnRefs">Referencias</button>
   </nav>
 </header>
-<p class="hint" id="hint" hidden>Arrastra para mirar · toca el piso para caminar · toca una obra para abrir su ficha</p>
+<p class="hint" id="hint" hidden>Arrastra para mirar. Toca el piso para caminar y una obra para verla.</p>
 
-<section class="intro" id="intro">
-  <div class="intro-text">
-    <p class="intro-kicker">Museo virtual de literatura en español</p>
-    <h1>La voz<br>y la palabra</h1>
-    <p class="intro-sub">Viaje por la literatura en español</p>
-    <p class="intro-names" id="introNames"></p>
-    <p class="intro-course" id="introCourse"></p>
-    <button type="button" class="intro-enter" id="btnEnter" disabled>Cargando el museo… <span id="loadPct">0%</span></button>
-    <p class="intro-help">Arrastra para mirar alrededor. Toca el piso para caminar y toca una obra para abrir su ficha. En computadora también puedes usar W A S D o las flechas.</p>
-  </div>
-  <figure class="intro-img"><img src="img/portada_dore.jpg" alt="Grabado de Gustave Doré: don Quijote leyendo en su biblioteca, impreso a dos tintas"></figure>
-</section>
+<div class="loading" id="loading">
+  <p class="loading-title">La voz y la palabra</p>
+  <p class="loading-pct">Cargando el museo, <span id="loadPct">0%</span></p>
+</div>
 
 <div class="sheet" id="plano" hidden>
   <div class="sheet-card">
-    <div class="sheet-head"><h2>Plano del museo</h2><button type="button" class="x" data-close>× Cerrar</button></div>
-    <p class="sheet-note">Toca una sala para ir a ella.</p>
+    <div class="sheet-head"><h2>Plano</h2><button type="button" class="x" data-close>Cerrar</button></div>
     <ol class="plano-rooms" id="planoRooms"></ol>
   </div>
 </div>
