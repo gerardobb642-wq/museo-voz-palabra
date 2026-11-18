@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>La voz y la palabra · Museo virtual</title>
+<meta name="description" content="Museo virtual en 3D de literatura en español: seis salas, de la Edad Media al Naturalismo.">
+<link rel="preload" href="fonts/IbarraRealNova.ttf" as="font" type="font/ttf" crossorigin>
+<link rel="stylesheet" href="css/museo.css">
+</head>
+<body>
+<canvas id="scene" aria-label="Recorrido en 3D del museo"></canvas>
+
+<header class="hud" id="hud" hidden>
+  <p class="hud-where"><span class="hud-museo">La voz y la palabra</span><span class="hud-sala" id="hudSala">Vestíbulo</span></p>
+  <nav class="hud-nav">
+    <button type="button" id="btnPlano">Plano</button>
+    <button type="button" id="btnRefs">Referencias</button>
+  </nav>
+</header>
+<p class="hint" id="hint" hidden>Arrastra para mirar · toca el piso para caminar · toca una obra para abrir su ficha</p>
+
+<section class="intro" id="intro">
+  <div class="intro-text">
+    <p class="intro-kicker">Museo virtual de literatura en español</p>
+    <h1>La voz<br>y la palabra</h1>
+    <p class="intro-sub">Viaje por la literatura en español</p>
+    <p class="intro-names" id="introNames"></p>
+    <p class="intro-course" id="introCourse"></p>
+    <button type="button" class="intro-enter" id="btnEnter" disabled>Cargando el museo… <span id="loadPct">0%</span></button>
+    <p class="intro-help">Arrastra para mirar alrededor. Toca el piso para caminar y toca una obra para abrir su ficha. En computadora también puedes usar W A S D o las flechas.</p>
+  </div>
+  <figure class="intro-img"><img src="img/portada_dore.jpg" alt="Grabado de Gustave Doré: don Quijote leyendo en su biblioteca, impreso a dos tintas"></figure>
+</section>
+
+<div class="sheet" id="plano" hidden>
+  <div class="sheet-card">
+    <div class="sheet-head"><h2>Plano del museo</h2><button type="button" class="x" data-close>× Cerrar</button></div>
+    <p class="sheet-note">Toca una sala para ir a ella.</p>
+    <ol class="plano-rooms" id="planoRooms"></ol>
+  </div>
+</div>
+
+<div class="modal" id="modal" hidden>
+  <article class="card" role="dialog" aria-modal="true" aria-labelledby="mTitle" id="card"></article>
+</div>
+
+<script type="module" src="js/main.js"></script>
+</body>
+</html>
