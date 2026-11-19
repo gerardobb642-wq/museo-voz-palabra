@@ -1,0 +1,17 @@
+{
+  "detector": {
+    "ignoreRules": [],
+    "ignoreFiles": [],
+    "ignoreValues": [
+      {
+        "rule": "side-tab",
+        "value": "*",
+        "files": [
+          "css/museo.css"
+        ],
+        "createdAt": "2026-11-19T04:26:07.021Z",
+        "reason": "Claude triage: los bordes izquierdos de .tl son el eje y las marcas de la línea del tiempo (tinta, no acento de color en tarjeta); estructura de dominio, no adorno"
+      }
+    ]
+  }
+}

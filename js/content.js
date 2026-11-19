@@ -15,7 +15,7 @@ export const DATA = {
    "fechas": "Siglo XIV",
    "contexto": "Castilla, siglo XIV. Todavía hay guerra con los musulmanes, pero también conviven y se pasan historias, por eso muchos cuentos de esta época vienen de Oriente. La literatura servía para enseñar algo, sobre todo a los nobles.",
    "obra": "El conde Lucanor",
-   "sub": "Exemplo XXXV: «De lo que aconteció a un mozo que se casó con una mujer muy fuerte y muy brava»",
+   "sub": "Exemplo XXXV: “De lo que aconteció a un mozo que se casó con una mujer muy fuerte y muy brava”",
    "ficha": [
     [
      "Autor",
@@ -49,7 +49,7 @@ export const DATA = {
     ],
     [
      "Recursos",
-     "Un cuento dentro de otro: el conde pregunta y Patronio le contesta con una historia. Narrador en tercera persona, exageración («la mujer más brava del mundo») y una moraleja en verso al final."
+     "Un cuento dentro de otro: el conde pregunta y Patronio le contesta con una historia. Narrador en tercera persona, exageración (“la mujer más brava del mundo”) y una moraleja en verso al final."
     ]
    ],
    "ap_tema": "Las relaciones interpersonales",
@@ -67,7 +67,7 @@ export const DATA = {
     {
      "label": "Antes de la boda",
      "titulo": "El mozo pobre",
-     "texto": "Patronio cuenta de un joven pobre que se quiere casar con «la mujer más brava del mundo»."
+     "texto": "Patronio cuenta de un joven pobre que se quiere casar con “la mujer más brava del mundo”."
     },
     {
      "label": "El día de la boda",
@@ -92,7 +92,7 @@ export const DATA = {
     {
      "label": "Moraleja",
      "titulo": "La enseñanza",
-     "texto": "«Si al comienzo no muestras quién eres, nunca podrás después cuando quisieres.»"
+     "texto": "“Si al comienzo no muestras quién eres, nunca podrás después cuando quisieres.”"
     }
    ]
   },
@@ -137,20 +137,20 @@ export const DATA = {
     ],
     [
      "Recursos",
-     "Lázaro cuenta su vida en primera persona, como carta a «Vuestra Merced». Cada amo es un capítulo, y todo está lleno de ironía y humor."
+     "Lázaro cuenta su vida en primera persona, como carta a “Vuestra Merced”. Cada amo es un capítulo, y todo está lleno de ironía y humor."
     ]
    ],
    "ap_tema": "La dualidad del ser",
    "ap_texto": "Casi nadie es lo que aparenta. El ciego enseña pero es cruel, el clérigo predica pero es tacaño y el escudero presume honra pero no tiene ni para comer. Y al final Lázaro dice que le va increíble, cuando en realidad acepta una vida bastante triste.",
    "cuadro": "Collage digital del equipo con el Lazarillo de Goya, la portada de 1554 y unas uvas como las que Lázaro y el ciego se reparten.",
    "resumen_tipo": "Línea del tiempo",
-   "guion": "Pasamos a la sala del Renacimiento con el Lazarillo de Tormes, una novela anónima publicada en 1554. El tema central es la supervivencia: Lázaro es un niño pobre que pasa de amo en amo y aprende que, para comer, tiene que engañar. Entonces el libro se vuelve una crítica a la sociedad, porque sus amos, un ciego, un clérigo y un escudero, aparentan una cosa y son otra. El contexto es la España de Carlos V: un imperio enorme, pero con mucha hambre y con una obsesión por la honra. Por eso la Inquisición lo prohibió en 1559. En lo literario, está narrado en primera persona, como una carta a «Vuestra Merced», y es una autobiografía ficticia. Usa mucho la ironía, o sea, Lázaro dice que está en la cumbre de su fortuna cuando en realidad su vida es bastante triste. Así nace la novela picaresca.",
+   "guion": "Pasamos a la sala del Renacimiento con el Lazarillo de Tormes, una novela anónima publicada en 1554. El tema central es la supervivencia: Lázaro es un niño pobre que pasa de amo en amo y aprende que, para comer, tiene que engañar. Entonces el libro se vuelve una crítica a la sociedad, porque sus amos, un ciego, un clérigo y un escudero, aparentan una cosa y son otra. El contexto es la España de Carlos V: un imperio enorme, pero con mucha hambre y con una obsesión por la honra. Por eso la Inquisición lo prohibió en 1559. En lo literario, está narrado en primera persona, como una carta a “Vuestra Merced”, y es una autobiografía ficticia. Usa mucho la ironía, o sea, Lázaro dice que está en la cumbre de su fortuna cuando en realidad su vida es bastante triste. Así nace la novela picaresca.",
    "cedula": "Lazarillo de Tormes\nAnónimo, 1554",
    "resumen": [
     {
      "label": "Prólogo",
      "titulo": "Una carta",
-     "texto": "Lázaro, ya adulto, le escribe a «Vuestra Merced» para explicarle «el caso»."
+     "texto": "Lázaro, ya adulto, le escribe a “Vuestra Merced” para explicarle “el caso”."
     },
     {
      "label": "Infancia",
@@ -180,7 +180,7 @@ export const DATA = {
     {
      "label": "Tratado VII",
      "titulo": "El caso",
-     "texto": "Es pregonero y se casa con la criada de un arcipreste. Todos hablan, pero él dice que está en «la cumbre de toda buena fortuna»."
+     "texto": "Es pregonero y se casa con la criada de un arcipreste. Todos hablan, pero él dice que está en “la cumbre de toda buena fortuna”."
     }
    ]
   },
@@ -191,7 +191,7 @@ export const DATA = {
    "fechas": "Siglo XVI, México",
    "contexto": "En 1519 llega Cortés y en 1521 cae Tenochtitlan. Años después, fray Bernardino de Sahagún les pide a los ancianos mexicas que cuenten en náhuatl lo que vivieron. Es la conquista contada por los que perdieron.",
    "obra": "Visión de los vencidos",
-   "sub": "Relaciones indígenas de la conquista: «Los presagios» y «Se ha perdido el pueblo mexica»",
+   "sub": "Relaciones indígenas de la conquista: “Los presagios” y “Se ha perdido el pueblo mexica”",
    "ficha": [
     [
      "Autor",
@@ -225,25 +225,25 @@ export const DATA = {
     ],
     [
      "Recursos",
-     "Habla un «nosotros», como si fuera todo el pueblo. Los presagios funcionan como símbolos, hay repeticiones típicas del náhuatl y el tono es de lamento."
+     "Habla un “nosotros”, como si fuera todo el pueblo. Los presagios funcionan como símbolos, hay repeticiones típicas del náhuatl y el tono es de lamento."
     ]
    ],
    "ap_tema": "Las sociedades en contacto",
    "ap_texto": "Aquí el contacto entre mexicas y españoles es un choque. Cortés cuenta una hazaña en sus cartas; los informantes de Sahagún cuentan presagios, viruela, hambre y una ciudad destruida. Pues la misma historia cambia por completo según quién la cuenta.",
    "cuadro": "Collage digital del equipo con dibujos del Códice Florentino, hechos por artistas nahuas en el siglo XVI.",
    "resumen_tipo": "Línea del tiempo",
-   "guion": "Esta sala es distinta, porque aquí la historia la cuentan los vencidos. Visión de los vencidos reúne los testimonios en náhuatl que recogió fray Bernardino de Sahagún en el siglo dieciséis; Miguel León-Portilla los tradujo y publicó en 1959. El tema central es la conquista vista desde el pueblo mexica: el miedo, la destrucción y el dolor de perder su ciudad. El contexto es clave, pues después de 1521 los frailes aprendieron náhuatl y escribieron lo que recordaban los ancianos. En lo literario destacan la voz colectiva, ese «nosotros» que habla por todo un pueblo; los presagios, que funcionan como símbolos de la tragedia, y las repeticiones típicas de la poesía náhuatl. El tono es elegíaco, o sea, de lamento. Si lo comparamos con las cartas de Cortés, entendemos que la misma historia cambia según quién la cuenta.",
+   "guion": "Esta sala es distinta, porque aquí la historia la cuentan los vencidos. Visión de los vencidos reúne los testimonios en náhuatl que recogió fray Bernardino de Sahagún en el siglo dieciséis; Miguel León-Portilla los tradujo y publicó en 1959. El tema central es la conquista vista desde el pueblo mexica: el miedo, la destrucción y el dolor de perder su ciudad. El contexto es clave, pues después de 1521 los frailes aprendieron náhuatl y escribieron lo que recordaban los ancianos. En lo literario destacan la voz colectiva, ese “nosotros” que habla por todo un pueblo; los presagios, que funcionan como símbolos de la tragedia, y las repeticiones típicas de la poesía náhuatl. El tono es elegíaco, o sea, de lamento. Si lo comparamos con las cartas de Cortés, entendemos que la misma historia cambia según quién la cuenta.",
    "cedula": "Visión de los vencidos\nInformantes de Sahagún, siglo XVI",
    "resumen": [
     {
      "label": "Diez años antes",
      "titulo": "Los presagios",
-     "texto": "Una espiga de fuego en el cielo, un templo en llamas y una mujer que llora de noche: «¡Hijitos míos, tenemos que irnos lejos!»."
+     "texto": "Una espiga de fuego en el cielo, un templo en llamas y una mujer que llora de noche: “¡Hijitos míos, tenemos que irnos lejos!”."
     },
     {
      "label": "Séptimo presagio",
      "titulo": "El pájaro del espejo",
-     "texto": "Atrapan un ave con un espejo en la cabeza. En él, Motecuhzoma ve gente que llega montada en «venados»."
+     "texto": "Atrapan un ave con un espejo en la cabeza. En él, Motecuhzoma ve gente que llega montada en “venados”."
     },
     {
      "label": "1519",
@@ -258,12 +258,12 @@ export const DATA = {
     {
      "label": "1521",
      "titulo": "El sitio",
-     "texto": "La ciudad se queda sin agua ni comida: «hemos comido palos de colorín»."
+     "texto": "La ciudad se queda sin agua ni comida: “hemos comido palos de colorín”."
     },
     {
      "label": "13 de agosto de 1521",
      "titulo": "Se ha perdido el pueblo mexica",
-     "texto": "Cae Tenochtitlan. Los cantares tristes dicen: «era nuestra herencia una red de agujeros»."
+     "texto": "Cae Tenochtitlan. Los cantares tristes dicen: “era nuestra herencia una red de agujeros”."
     }
    ]
   },
@@ -308,7 +308,7 @@ export const DATA = {
     ],
     [
      "Recursos",
-     "Un narrador irónico que hasta duda de sus fuentes («En un lugar de la Mancha, de cuyo nombre no quiero acordarme»), la parodia de los libros de caballerías y el contraste entre cómo habla don Quijote y cómo habla Sancho."
+     "Un narrador irónico que hasta duda de sus fuentes (“En un lugar de la Mancha, de cuyo nombre no quiero acordarme”), la parodia de los libros de caballerías y el contraste entre cómo habla don Quijote y cómo habla Sancho."
     ]
    ],
    "ap_tema": "La creación literaria",
@@ -336,7 +336,7 @@ export const DATA = {
     {
      "label": "Cap. IV",
      "titulo": "Andrés",
-     "texto": "«Salva» a un criado al que luego le pegan el doble, y unos mercaderes lo apalean."
+     "texto": "“Salva” a un criado al que luego le pegan el doble, y unos mercaderes lo apalean."
     },
     {
      "label": "Cap. V",
@@ -367,7 +367,7 @@ export const DATA = {
    "fechas": "Siglo XIX",
    "contexto": "Siglo XIX. El Romanticismo pone al centro los sentimientos y la naturaleza. A España llega tarde, y Bécquer lo vuelve íntimo: poemas cortos, como si hablara bajito.",
    "obra": "Rima LIII",
-   "sub": "«Volverán las oscuras golondrinas»",
+   "sub": "“Volverán las oscuras golondrinas”",
    "ficha": [
     [
      "Autor",
@@ -401,14 +401,14 @@ export const DATA = {
     ],
     [
      "Recursos",
-     "Anáfora con «volverán», tres partes paralelas, la antítesis entre volverán y no volverán, el poeta le habla directo a ella y cierra con un símil: «como se adora a Dios ante su altar»."
+     "Anáfora con “volverán”, tres partes paralelas, la antítesis entre volverán y no volverán, el poeta le habla directo a ella y cierra con un símil: “como se adora a Dios ante su altar”."
     ]
    ],
    "ap_tema": "El tiempo y el espacio",
    "ap_texto": "El poema junta dos tiempos. El de la naturaleza da vueltas: las golondrinas y las madreselvas regresan cada primavera. El del amor va en línea recta y no se repite. Ese choque es todo el poema.",
    "cuadro": "Collage digital del equipo con el retrato que le pintó su hermano Valeriano y láminas antiguas de golondrinas y madreselvas.",
    "resumen_tipo": "Infografía",
-   "guion": "Ahora estamos en el Romanticismo, con la Rima LIII de Gustavo Adolfo Bécquer, la famosa «Volverán las oscuras golondrinas». Se publicó en 1871, un año después de su muerte, gracias a sus amigos. El tema central es el amor perdido: el poeta le dice a su amada que las golondrinas y las madreselvas van a volver, pero los momentos que vivieron juntos no. Sobre el contexto, Bécquer escribió en el Madrid de los años sesenta del siglo diecinueve, cuando el Romanticismo ya se estaba apagando; por eso su poesía es más íntima, breve y musical. En lo literario, el poema se construye en tres partes paralelas, con anáfora en «volverán» y una antítesis con «no volverán». También hay un apóstrofe, porque le habla directamente a ella, y un símil al final: «como se adora a Dios ante su altar». El tono es melancólico, pues es casi una despedida.",
+   "guion": "Ahora estamos en el Romanticismo, con la Rima LIII de Gustavo Adolfo Bécquer, la famosa “Volverán las oscuras golondrinas”. Se publicó en 1871, un año después de su muerte, gracias a sus amigos. El tema central es el amor perdido: el poeta le dice a su amada que las golondrinas y las madreselvas van a volver, pero los momentos que vivieron juntos no. Sobre el contexto, Bécquer escribió en el Madrid de los años sesenta del siglo diecinueve, cuando el Romanticismo ya se estaba apagando; por eso su poesía es más íntima, breve y musical. En lo literario, el poema se construye en tres partes paralelas, con anáfora en “volverán” y una antítesis con “no volverán”. También hay un apóstrofe, porque le habla directamente a ella, y un símil al final: “como se adora a Dios ante su altar”. El tono es melancólico, pues es casi una despedida.",
    "cedula": "Rima LIII\nGustavo Adolfo Bécquer, 1871",
    "partes": [
     [
@@ -430,9 +430,9 @@ export const DATA = {
      "¡así no te querrán!"
     ]
    ],
-   "metrica": "Seis estrofas de cuatro versos: tres de once sílabas y uno de siete. Rima asonante en «á» en los versos pares.",
+   "metrica": "Seis estrofas de cuatro versos: tres de once sílabas y uno de siete. Rima asonante en “á” en los versos pares.",
    "figuras": "Anáfora, paralelismo, antítesis, apóstrofe, hipérbaton, personificación y símil.",
-   "voz": "Un «yo» que le habla a un «tú»: la persona que ya no está con él."
+   "voz": "Un “yo” que le habla a un “tú”: la persona que ya no está con él."
   },
   {
    "slug": "medias",
@@ -482,7 +482,7 @@ export const DATA = {
    "ap_texto": "Ildara no decide nada sobre su vida ni sobre su cuerpo. Su papá la necesita para la tierra y la golpea cuando descubre que se quiere ir. O sea, su belleza era su salida y él la destruye. Pardo Bazán denuncia cómo trataban a las mujeres como propiedad.",
    "cuadro": "Collage digital del equipo con fotos antiguas de Galicia y de la emigración. Lo único en color son las medias.",
    "resumen_tipo": "Línea del tiempo",
-   "guion": "Terminamos en el Naturalismo con «Las medias rojas», un cuento de Emilia Pardo Bazán publicado en 1914. El tema central es la violencia contra la mujer: Ildara, una joven gallega, quiere emigrar a América, pero su padre descubre el plan por unas medias rojas y la golpea tan fuerte que le hace perder un ojo, y con eso pierde también su oportunidad de irse. El contexto es la Galicia rural de principios del siglo veinte, donde la pobreza obligaba a miles de personas a emigrar a Cuba o a Argentina. En los recursos literarios destaca el narrador en tercera persona, que lo cuenta todo de forma objetiva y cruda, como pide el Naturalismo. Las medias rojas son un símbolo, o sea, representan el deseo de libertad, pero al final se asocian con la sangre. El final es seco y abrupto, y eso hace que el golpe se sienta todavía más.",
+   "guion": "Terminamos en el Naturalismo con “Las medias rojas”, un cuento de Emilia Pardo Bazán publicado en 1914. El tema central es la violencia contra la mujer: Ildara, una joven gallega, quiere emigrar a América, pero su padre descubre el plan por unas medias rojas y la golpea tan fuerte que le hace perder un ojo, y con eso pierde también su oportunidad de irse. El contexto es la Galicia rural de principios del siglo veinte, donde la pobreza obligaba a miles de personas a emigrar a Cuba o a Argentina. En los recursos literarios destaca el narrador en tercera persona, que lo cuenta todo de forma objetiva y cruda, como pide el Naturalismo. Las medias rojas son un símbolo, o sea, representan el deseo de libertad, pero al final se asocian con la sangre. El final es seco y abrupto, y eso hace que el golpe se sienta todavía más.",
    "cedula": "Las medias rojas\nEmilia Pardo Bazán, 1914",
    "resumen": [
     {
@@ -498,7 +498,7 @@ export const DATA = {
     {
      "label": "Nudo",
      "titulo": "El sueño de irse",
-     "texto": "En realidad el «gancho» le adelantó dinero para el barco a América."
+     "texto": "En realidad el “gancho” le adelantó dinero para el barco a América."
     },
     {
      "label": "Clímax",
@@ -514,13 +514,13 @@ export const DATA = {
   }
  ],
  "refs": [
-  "Bécquer, Gustavo Adolfo. «Rima LIII». Obras de Gustavo A. Bécquer, 1885. Wikisource, es.wikisource.org/wiki/Rima_LIII.",
+  "Bécquer, Gustavo Adolfo. “Rima LIII”. Obras de Gustavo A. Bécquer, 1885. Wikisource, es.wikisource.org/wiki/Rima_LIII.",
   "Cervantes, Miguel de. Don Quijote de la Mancha. Edición del IV Centenario, Real Academia Española / Asociación de Academias de la Lengua Española, Alfaguara, 2004.",
   "College Board. AP Spanish Literature and Culture: Course and Exam Description. Revised ed., College Board, 2014.",
   "Juan Manuel. El conde Lucanor. Edición de José Manuel Blecua, Castalia, 2010. Clásicos Castalia 9.",
   "Lazarillo de Tormes. Edición de Francisco Rico, Cátedra, 1987. Letras Hispánicas 44.",
   "León-Portilla, Miguel. Visión de los vencidos: Relaciones indígenas de la conquista. UNAM, 1959.",
-  "Pardo Bazán, Emilia. «Las medias rojas». Cuentos de la tierra, Atlántida, 1922.",
+  "Pardo Bazán, Emilia. “Las medias rojas”. Cuentos de la tierra, Atlántida, 1922.",
   "Rodríguez, Alejandra. Presentaciones de contexto de las unidades 1 y 2. AP Spanish Literature and Culture, Prepa Anáhuac Monterrey, 2026."
  ],
  "credits": [
