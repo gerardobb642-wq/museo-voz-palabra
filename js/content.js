@@ -129,7 +129,7 @@ export const DATA = {
    "analisis": [
     [
      "Tema central",
-     "Sobrevivir siendo pobre en una sociedad hipócrita, donde importa más parecer honrado que serlo."
+     "Sobrevivir siendo pobre en una sociedad donde todos quieren lucir y ostentar lo que no tienen. Importa más parecer honrado que serlo, o sea, ser alguien que no eres."
     ],
     [
      "Contexto",
