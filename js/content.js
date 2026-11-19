@@ -13,7 +13,7 @@ export const DATA = {
    "num": "I",
    "periodo": "La Edad Media",
    "fechas": "Siglo XIV",
-   "contexto": "Castilla, siglo XIV. Todavía hay guerra con los musulmanes, pero también conviven y se pasan historias, por eso muchos cuentos de esta época vienen de Oriente. La literatura servía para enseñar algo, sobre todo a los nobles.",
+   "contexto": "Castilla, siglo XIV. Todavía había guerra con los musulmanes, pero también convivían y se pasaban historias; por eso muchos cuentos de esta época vienen de Oriente. La literatura era para dejarte una enseñanza, sobre todo a los nobles.",
    "obra": "El conde Lucanor",
    "sub": "Exemplo XXXV: “De lo que aconteció a un mozo que se casó con una mujer muy fuerte y muy brava”",
    "ficha": [
@@ -41,53 +41,53 @@ export const DATA = {
    "analisis": [
     [
      "Tema central",
-     "Quién manda en un matrimonio. Según el cuento, la autoridad se marca desde el primer día."
+     "Quién manda en el matrimonio. Según el cuento, la autoridad se marca desde el día uno."
     ],
     [
      "Contexto",
-     "Una sociedad feudal y muy machista. Don Juan Manuel escribe para aconsejar a otros nobles, con cuentos que llegaron de la tradición árabe."
+     "Una sociedad feudal y bien machista. Don Juan Manuel escribía para aconsejar a otros nobles, con cuentos que llegaron de la tradición árabe."
     ],
     [
      "Recursos",
-     "Un cuento dentro de otro: el conde pregunta y Patronio le contesta con una historia. Narrador en tercera persona, exageración (“la mujer más brava del mundo”) y una moraleja en verso al final."
+     "Es un cuento dentro de otro: el conde pregunta y Patronio le contesta con una historia. Narrador en tercera persona, exageración (“la mujer más brava del mundo”) y una moraleja en verso al final."
     ]
    ],
    "ap_tema": "Las relaciones interpersonales",
-   "ap_texto": "Todo el cuento gira en torno al poder: el conde y su consejero, el padre y la hija, el esposo y la esposa. O sea, el mozo no gana el respeto de su esposa hablando con ella, lo gana con miedo. Hoy eso se lee fatal, pero en el siglo XIV era un consejo normal.",
+   "ap_texto": "Todo el cuento es de poder: el conde y su consejero, el papá y la hija, el esposo y la esposa. O sea, el mozo no se gana a su esposa platicando, se la gana con miedo. Hoy eso se lee fatal, pero en el siglo XIV era un consejo normal.",
    "cuadro": "Collage digital del equipo con miniaturas medievales: el perro, el gato y el caballo del cuento.",
    "resumen_tipo": "Línea del tiempo",
-   "guion": "Bienvenidos a la sala medieval. La obra es el exemplo treinta y cinco de El conde Lucanor, de don Juan Manuel, escrito en 1335. El tema central es el poder dentro del matrimonio: un joven pobre se casa con una mujer de carácter muy fuerte y, en la noche de bodas, mata a su perro, a su gato y a su caballo porque no le obedecen. Entonces ella, asustada, obedece en todo. Hay que entender el contexto: es la Castilla del siglo catorce, una sociedad feudal y patriarcal, y el libro está pensado para aconsejar a la nobleza. Mira, lo más interesante es la estructura, porque es un cuento dentro de otro cuento: el conde le pide consejo a Patronio y él le responde con esta historia. El narrador está en tercera persona, usa la hipérbole y cierra con una moraleja en verso: si al comienzo no muestras quién eres, nunca podrás después.",
+   "guion": "Bienvenidos a la sala medieval. Aquí está el exemplo treinta y cinco de El conde Lucanor, de don Juan Manuel, de 1335. El tema es quién manda en el matrimonio: un joven pobre se casa con una mujer de carácter bien fuerte y, en la noche de bodas, mata a su perro, a su gato y a su caballo porque no le obedecen. Entonces ella, asustada, le hace caso en todo. Para entenderlo hay que ubicarse: es la Castilla del siglo catorce, una sociedad feudal y bien machista, y el libro era para aconsejar a los nobles. Mira, lo más interesante es cómo está armado: es un cuento dentro de otro, porque el conde le pide consejo a Patronio y él le contesta con esta historia. El narrador va en tercera persona, exagera todo y cierra con una moraleja en verso: si al comienzo no muestras quién eres, nunca podrás después.",
    "cedula": "El conde Lucanor, exemplo XXXV\nDon Juan Manuel, 1335",
    "resumen": [
     {
      "label": "Marco",
      "titulo": "La pregunta",
-     "texto": "Un criado del conde se quiere casar con una mujer rica pero de muy mal carácter, y el conde le pide consejo a Patronio."
+     "texto": "Un criado del conde se quiere casar con una mujer rica pero con un carácter cañón, y el conde le pide consejo a Patronio."
     },
     {
      "label": "Antes de la boda",
      "titulo": "El mozo pobre",
-     "texto": "Patronio cuenta de un joven pobre que se quiere casar con “la mujer más brava del mundo”."
+     "texto": "Patronio le cuenta de un joven pobre que se quiere casar con “la mujer más brava del mundo”."
     },
     {
      "label": "El día de la boda",
      "titulo": "Nadie lo convence",
-     "texto": "Todos le dicen que es mala idea. Se casa de todos modos."
+     "texto": "Todos le dicen que no lo haga. Se casa de todos modos."
     },
     {
      "label": "Noche de bodas",
      "titulo": "La cena",
-     "texto": "Le ordena al perro, al gato y al caballo que le traigan agua. Como no obedecen, los mata."
+     "texto": "En la cena le pide agua al perro, al gato y al caballo. Como no le hacen caso, los mata."
     },
     {
      "label": "A la mañana",
      "titulo": "Ella obedece",
-     "texto": "La esposa, asustada, hace todo lo que él dice. La familia no lo puede creer."
+     "texto": "La esposa, bien asustada, le obedece en todo. La familia no lo puede creer."
     },
     {
      "label": "Tiempo después",
      "titulo": "El suegro lo intenta",
-     "texto": "Mata un gallo para asustar a su esposa, pero ella le dice que ya es tarde."
+     "texto": "El suegro mata un gallo para asustar a su esposa, pero ella le dice que ya es muy tarde."
     },
     {
      "label": "Moraleja",
@@ -101,7 +101,7 @@ export const DATA = {
    "num": "II",
    "periodo": "El Renacimiento",
    "fechas": "Siglo XVI",
-   "contexto": "España en tiempos de Carlos V: un imperio enorme por fuera y gente con hambre por dentro. Todos cuidan la honra y las apariencias, y de ahí sale la novela picaresca.",
+   "contexto": "España en tiempos de Carlos V: un imperio enorme por fuera y gente con hambre por dentro. Todos querían verse con honra, aunque no tuvieran ni para comer. De ahí sale la novela picaresca.",
    "obra": "Lazarillo de Tormes",
    "sub": "La vida de Lazarillo de Tormes y de sus fortunas y adversidades",
    "ficha": [
@@ -129,48 +129,48 @@ export const DATA = {
    "analisis": [
     [
      "Tema central",
-     "Sobrevivir siendo pobre en una sociedad donde todos quieren lucir y ostentar lo que no tienen. Importa más parecer honrado que serlo, o sea, ser alguien que no eres."
+     "Sobrevivir siendo pobre en una sociedad donde todos son bien alucines: quieren lucir y ostentar lo que no tienen. Importa más parecer rico que serlo, o sea, ser alguien que no eres."
     ],
     [
      "Contexto",
-     "Mucha riqueza en el imperio y mucha hambre en la calle. La Inquisición lo prohibió en 1559 por cómo pinta a la Iglesia."
+     "Mucha lana en el imperio y mucha hambre en la calle. La Inquisición lo prohibió en 1559 por cómo deja a la Iglesia."
     ],
     [
      "Recursos",
-     "Lázaro cuenta su vida en primera persona, como carta a “Vuestra Merced”. Cada amo es un capítulo, y todo está lleno de ironía y humor."
+     "Lázaro cuenta su vida en primera persona, como si fuera una carta a “Vuestra Merced”. Cada amo es un capítulo y todo está lleno de ironía y humor."
     ]
    ],
    "ap_tema": "La dualidad del ser",
-   "ap_texto": "Casi nadie es lo que aparenta. El ciego enseña pero es cruel, el clérigo predica pero es tacaño y el escudero presume honra pero no tiene ni para comer. Y al final Lázaro dice que le va increíble, cuando en realidad acepta una vida bastante triste.",
+   "ap_texto": "Casi nadie es lo que aparenta. El ciego te enseña pero es cruel, el clérigo predica pero es bien codo, y el escudero es el más alucín: presume honra y no tiene ni para comer. Al final Lázaro dice que le va increíble, pero la verdad su vida está bastante triste.",
    "cuadro": "Collage digital del equipo con el Lazarillo de Goya, la portada de 1554 y unas uvas como las que Lázaro y el ciego se reparten.",
    "resumen_tipo": "Línea del tiempo",
-   "guion": "Pasamos a la sala del Renacimiento con el Lazarillo de Tormes, una novela anónima publicada en 1554. El tema central es la supervivencia: Lázaro es un niño pobre que pasa de amo en amo y aprende que, para comer, tiene que engañar. Entonces el libro se vuelve una crítica a la sociedad, porque sus amos, un ciego, un clérigo y un escudero, aparentan una cosa y son otra. El contexto es la España de Carlos V: un imperio enorme, pero con mucha hambre y con una obsesión por la honra. Por eso la Inquisición lo prohibió en 1559. En lo literario, está narrado en primera persona, como una carta a “Vuestra Merced”, y es una autobiografía ficticia. Usa mucho la ironía, o sea, Lázaro dice que está en la cumbre de su fortuna cuando en realidad su vida es bastante triste. Así nace la novela picaresca.",
+   "guion": "Ahora el Renacimiento, con el Lazarillo de Tormes, una novela anónima de 1554. El tema es sobrevivir: Lázaro es un niño pobre que va de amo en amo y aprende que, para comer, tiene que hacerse el vivo. Entonces el libro se vuelve una crítica a la sociedad, porque sus amos, un ciego, un clérigo y un escudero, son bien alucines: aparentan una cosa y son otra. El contexto es la España de Carlos V: un imperio enorme, pero con mucha hambre y con una obsesión por verse con honra. Por eso la Inquisición lo prohibió en 1559. En lo literario, está en primera persona, como una carta a “Vuestra Merced”, y es una autobiografía inventada. Tiene mucha ironía, o sea, Lázaro dice que está en la cumbre de su fortuna cuando la verdad su vida está bastante triste. Así nace la novela picaresca.",
    "cedula": "Lazarillo de Tormes\nAnónimo, 1554",
    "resumen": [
     {
      "label": "Prólogo",
      "titulo": "Una carta",
-     "texto": "Lázaro, ya adulto, le escribe a “Vuestra Merced” para explicarle “el caso”."
+     "texto": "Lázaro, ya grande, le escribe a “Vuestra Merced” para explicarle “el caso”."
     },
     {
      "label": "Infancia",
      "titulo": "Nace en el río",
-     "texto": "Su papá roba en un molino y muere en la guerra. Su mamá lo deja con un ciego."
+     "texto": "Su papá robaba en un molino y se muere en la guerra. Su mamá lo deja con un ciego."
     },
     {
      "label": "Tratado I",
      "titulo": "El ciego",
-     "texto": "El ciego le estrella la cabeza contra un toro de piedra. Lázaro aprende a engañar y luego se venga."
+     "texto": "El ciego le estrella la cabeza contra un toro de piedra. Ahí Lázaro aprende a hacerse el vivo y luego se venga."
     },
     {
      "label": "Tratado II",
      "titulo": "El clérigo",
-     "texto": "Un clérigo tacaño lo mata de hambre. Lázaro se roba el pan del arca con una llave."
+     "texto": "Un clérigo bien codo lo mata de hambre. Lázaro le roba el pan del arca con una llave."
     },
     {
      "label": "Tratado III",
      "titulo": "El escudero",
-     "texto": "Un escudero finge ser rico, pero no tiene ni para comer. Lázaro pide limosna para los dos."
+     "texto": "Un escudero bien alucín: finge ser rico y no tiene ni para comer. Lázaro pide limosna para los dos."
     },
     {
      "label": "Tratados IV a VI",
@@ -180,7 +180,7 @@ export const DATA = {
     {
      "label": "Tratado VII",
      "titulo": "El caso",
-     "texto": "Es pregonero y se casa con la criada de un arcipreste. Todos hablan, pero él dice que está en “la cumbre de toda buena fortuna”."
+     "texto": "Termina de pregonero, casado con la criada de un arcipreste. Todos hablan, pero él dice que está en “la cumbre de toda buena fortuna”."
     }
    ]
   },
@@ -217,22 +217,22 @@ export const DATA = {
    "analisis": [
     [
      "Tema central",
-     "La conquista vista por los vencidos: el miedo, la destrucción y el duelo por su ciudad."
+     "La conquista vista por los vencidos: el miedo, la destrucción y el luto por su ciudad."
     ],
     [
      "Contexto",
-     "Después de 1521 los frailes aprendieron náhuatl y escribieron lo que recordaban los ancianos. León-Portilla lo juntó en un libro en 1959."
+     "Después de 1521 los frailes aprendieron náhuatl y apuntaron lo que se acordaban los ancianos. León-Portilla lo juntó en un libro en 1959."
     ],
     [
      "Recursos",
-     "Habla un “nosotros”, como si fuera todo el pueblo. Los presagios funcionan como símbolos, hay repeticiones típicas del náhuatl y el tono es de lamento."
+     "Habla un “nosotros”, como si fuera todo el pueblo. Los presagios funcionan como símbolos, se repiten frases como en la poesía náhuatl y el tono es de lamento."
     ]
    ],
    "ap_tema": "Las sociedades en contacto",
-   "ap_texto": "Aquí el contacto entre mexicas y españoles es un choque. Cortés cuenta una hazaña en sus cartas; los informantes de Sahagún cuentan presagios, viruela, hambre y una ciudad destruida. Pues la misma historia cambia por completo según quién la cuenta.",
+   "ap_texto": "Aquí el contacto entre mexicas y españoles es un choque. Cortés en sus cartas lo cuenta como hazaña; los informantes de Sahagún cuentan presagios, viruela, hambre y una ciudad destruida. Pues la misma historia cambia por completo según quién la cuente.",
    "cuadro": "Collage digital del equipo con dibujos del Códice Florentino, hechos por artistas nahuas en el siglo XVI.",
    "resumen_tipo": "Línea del tiempo",
-   "guion": "Esta sala es distinta, porque aquí la historia la cuentan los vencidos. Visión de los vencidos reúne los testimonios en náhuatl que recogió fray Bernardino de Sahagún en el siglo dieciséis; Miguel León-Portilla los tradujo y publicó en 1959. El tema central es la conquista vista desde el pueblo mexica: el miedo, la destrucción y el dolor de perder su ciudad. El contexto es clave, pues después de 1521 los frailes aprendieron náhuatl y escribieron lo que recordaban los ancianos. En lo literario destacan la voz colectiva, ese “nosotros” que habla por todo un pueblo; los presagios, que funcionan como símbolos de la tragedia, y las repeticiones típicas de la poesía náhuatl. El tono es elegíaco, o sea, de lamento. Si lo comparamos con las cartas de Cortés, entendemos que la misma historia cambia según quién la cuenta.",
+   "guion": "Esta sala es diferente, porque aquí la historia la cuentan los que perdieron. Visión de los vencidos junta los testimonios en náhuatl que recogió fray Bernardino de Sahagún en el siglo dieciséis; Miguel León-Portilla los tradujo y los publicó en 1959. El tema es la conquista vista desde los mexicas: el miedo, la destrucción y el dolor de perder su ciudad. El contexto es clave, pues después de 1521 los frailes aprendieron náhuatl y apuntaron lo que se acordaban los ancianos. En lo literario, habla un “nosotros”, como si fuera todo el pueblo; los presagios funcionan como símbolos de la tragedia, y se repiten frases como en la poesía náhuatl. El tono es de lamento, o sea, de luto. Si lo comparas con las cartas de Cortés, te das cuenta de que la misma historia cambia según quién la cuente.",
    "cedula": "Visión de los vencidos\nInformantes de Sahagún, siglo XVI",
    "resumen": [
     {
@@ -243,27 +243,27 @@ export const DATA = {
     {
      "label": "Séptimo presagio",
      "titulo": "El pájaro del espejo",
-     "texto": "Atrapan un ave con un espejo en la cabeza. En él, Motecuhzoma ve gente que llega montada en “venados”."
+     "texto": "Atrapan un pájaro con un espejo en la cabeza. Ahí Motecuhzoma ve gente que llega montada en “venados”."
     },
     {
      "label": "1519",
      "titulo": "Llegan los extranjeros",
-     "texto": "Cortés desembarca y Motecuhzoma lo recibe en Tenochtitlan."
+     "texto": "Cortés llega a la costa y Motecuhzoma lo recibe en Tenochtitlan."
     },
     {
      "label": "1520",
      "titulo": "La matanza",
-     "texto": "En la fiesta de Tóxcatl, los hombres de Pedro de Alvarado atacan a los danzantes. Luego llega la viruela."
+     "texto": "En la fiesta de Tóxcatl, la gente de Pedro de Alvarado ataca a los que estaban bailando. Luego llega la viruela."
     },
     {
      "label": "1521",
      "titulo": "El sitio",
-     "texto": "La ciudad se queda sin agua ni comida: “hemos comido palos de colorín”."
+     "texto": "La ciudad se queda sin agua y sin comida: “hemos comido palos de colorín”."
     },
     {
      "label": "13 de agosto de 1521",
      "titulo": "Se ha perdido el pueblo mexica",
-     "texto": "Cae Tenochtitlan. Los cantares tristes dicen: “era nuestra herencia una red de agujeros”."
+     "texto": "Cae Tenochtitlan. Los cantares tristes lo dicen: “era nuestra herencia una red de agujeros”."
     }
    ]
   },
@@ -304,44 +304,44 @@ export const DATA = {
     ],
     [
      "Contexto",
-     "España en crisis con Felipe III. Cervantes fue soldado y estuvo cautivo en Argel, así que sabía bien qué tan lejos quedan los ideales de la realidad."
+     "España en crisis con Felipe III. Cervantes fue soldado y estuvo preso en Argel, así que sabía muy bien qué tan lejos están los ideales de la vida real."
     ],
     [
      "Recursos",
-     "Un narrador irónico que hasta duda de sus fuentes (“En un lugar de la Mancha, de cuyo nombre no quiero acordarme”), la parodia de los libros de caballerías y el contraste entre cómo habla don Quijote y cómo habla Sancho."
+     "Un narrador burlón que hasta duda de sus propias fuentes (“En un lugar de la Mancha, de cuyo nombre no quiero acordarme”), la parodia de los libros de caballerías y el contraste entre lo rebuscado que habla don Quijote y lo sencillo que habla Sancho."
     ]
    ],
    "ap_tema": "La creación literaria",
-   "ap_texto": "Es una novela sobre leer novelas. Don Quijote se arma a sí mismo con lo que leyó: se cambia el nombre, le pone nombre a su caballo y se inventa a Dulcinea. Mira, hasta los personajes revisan y queman libros. Por eso dicen que es la primera novela moderna.",
+   "ap_texto": "Es una novela sobre leer novelas. Don Quijote se arma a sí mismo con lo que leyó: se cambia el nombre, le pone nombre a su caballo y se inventa a Dulcinea. Mira, hasta los personajes revisan sus libros y los queman. Por eso dicen que es la primera novela moderna.",
    "cuadro": "Collage digital del equipo con grabados de Gustave Doré (1863) y la portada de 1605.",
    "resumen_tipo": "Línea del tiempo",
-   "guion": "Llegamos al Barroco con Don Quijote de la Mancha, de Miguel de Cervantes, publicado en 1605. El tema central es el choque entre la realidad y la ficción: Alonso Quijano lee tantos libros de caballerías que se convence de ser un caballero andante, y por eso confunde una venta con un castillo y unos molinos con gigantes. En cuanto al contexto, España vivía una crisis económica y un ambiente de desengaño, y Cervantes, que había sido soldado y cautivo, conocía bien la distancia entre los ideales y la realidad. Mira, lo más moderno de la novela es su narrador: es irónico, dice que no quiere acordarse del nombre del lugar y duda de sus propias fuentes. También destacan la parodia de los libros de caballerías, el humor y el contraste entre el lenguaje elevado de don Quijote y el habla sencilla de Sancho. Por eso se considera la primera novela moderna.",
+   "guion": "Llegamos al Barroco con Don Quijote de la Mancha, de Miguel de Cervantes, de 1605. El tema es realidad contra ficción: Alonso Quijano lee tantos libros de caballerías que se convence de que es un caballero andante, y por eso ve un castillo donde hay una venta y gigantes donde hay molinos. En el contexto, España estaba en crisis y había mucho desengaño, y Cervantes, que fue soldado y estuvo preso, sabía bien qué tan lejos están los ideales de la vida real. Mira, lo más moderno de la novela es el narrador: es burlón, dice que no se quiere acordar del nombre del lugar y hasta duda de sus propias fuentes. También destacan la parodia de los libros de caballerías, el humor y el contraste entre lo rebuscado que habla don Quijote y lo sencillo que habla Sancho. Por eso dicen que es la primera novela moderna.",
    "cedula": "Don Quijote de la Mancha\nMiguel de Cervantes, 1605",
    "resumen": [
     {
      "label": "Cap. I",
      "titulo": "Se le seca el cerebro",
-     "texto": "Un hidalgo lee tantos libros de caballerías que pierde el juicio y se vuelve don Quijote."
+     "texto": "Un hidalgo lee tantos libros de caballerías que se le bota la canica y se vuelve don Quijote."
     },
     {
      "label": "Cap. II",
      "titulo": "La venta es un castillo",
-     "texto": "Sale solo de su aldea y ve un castillo donde hay una venta."
+     "texto": "Sale solo de su pueblo y ve un castillo donde hay una venta."
     },
     {
      "label": "Cap. III",
      "titulo": "Armado caballero",
-     "texto": "El ventero le sigue el juego y lo arma caballero, de burla."
+     "texto": "El ventero le sigue el juego y lo nombra caballero, pero de puro cotorreo."
     },
     {
      "label": "Cap. IV",
      "titulo": "Andrés",
-     "texto": "“Salva” a un criado al que luego le pegan el doble, y unos mercaderes lo apalean."
+     "texto": "Defiende a un criado al que luego le pegan el doble, y unos mercaderes lo agarran a palos."
     },
     {
      "label": "Cap. V",
      "titulo": "De vuelta a casa",
-     "texto": "Un vecino lo encuentra molido en el camino y lo regresa a su aldea."
+     "texto": "Un vecino lo encuentra todo molido en el camino y lo lleva a su casa."
     },
     {
      "label": "Cap. VI",
@@ -356,7 +356,7 @@ export const DATA = {
     {
      "label": "Cap. VIII",
      "titulo": "Los molinos",
-     "texto": "Ataca unos molinos creyendo que son gigantes y el viento lo tumba."
+     "texto": "Ataca unos molinos pensando que son gigantes y el viento lo tumba."
     }
    ]
   },
@@ -365,7 +365,7 @@ export const DATA = {
    "num": "V",
    "periodo": "El Romanticismo",
    "fechas": "Siglo XIX",
-   "contexto": "Siglo XIX. El Romanticismo pone al centro los sentimientos y la naturaleza. A España llega tarde, y Bécquer lo vuelve íntimo: poemas cortos, como si hablara bajito.",
+   "contexto": "Siglo XIX. El Romanticismo pone los sentimientos y la naturaleza en el centro. A España llega tarde, y Bécquer lo hace más íntimo: poemas cortos, como si te hablara bajito.",
    "obra": "Rima LIII",
    "sub": "“Volverán las oscuras golondrinas”",
    "ficha": [
@@ -393,22 +393,22 @@ export const DATA = {
    "analisis": [
     [
      "Tema central",
-     "El amor perdido: la naturaleza vuelve cada año, pero ese amor ya no."
+     "El amor que se perdió: la naturaleza regresa cada año, pero ese amor ya no."
     ],
     [
      "Contexto",
-     "Bécquer vivió pobre y enfermo en Madrid. Sus amigos publicaron las Rimas un año después de que murió."
+     "Bécquer vivió pobre y enfermo en Madrid. Sus amigos publicaron las Rimas un año después de que se murió."
     ],
     [
      "Recursos",
-     "Anáfora con “volverán”, tres partes paralelas, la antítesis entre volverán y no volverán, el poeta le habla directo a ella y cierra con un símil: “como se adora a Dios ante su altar”."
+     "Repite “volverán” al inicio (anáfora), arma el poema en tres partes iguales, choca el volverán con el no volverán, le habla directo a ella y cierra con un símil: “como se adora a Dios ante su altar”."
     ]
    ],
    "ap_tema": "El tiempo y el espacio",
-   "ap_texto": "El poema junta dos tiempos. El de la naturaleza da vueltas: las golondrinas y las madreselvas regresan cada primavera. El del amor va en línea recta y no se repite. Ese choque es todo el poema.",
+   "ap_texto": "El poema junta dos tiempos. El de la naturaleza da vueltas: las golondrinas y las madreselvas regresan cada primavera. El del amor va en línea recta y ya no regresa. Ese choque es todo el poema.",
    "cuadro": "Collage digital del equipo con el retrato que le pintó su hermano Valeriano y láminas antiguas de golondrinas y madreselvas.",
    "resumen_tipo": "Infografía",
-   "guion": "Ahora estamos en el Romanticismo, con la Rima LIII de Gustavo Adolfo Bécquer, la famosa “Volverán las oscuras golondrinas”. Se publicó en 1871, un año después de su muerte, gracias a sus amigos. El tema central es el amor perdido: el poeta le dice a su amada que las golondrinas y las madreselvas van a volver, pero los momentos que vivieron juntos no. Sobre el contexto, Bécquer escribió en el Madrid de los años sesenta del siglo diecinueve, cuando el Romanticismo ya se estaba apagando; por eso su poesía es más íntima, breve y musical. En lo literario, el poema se construye en tres partes paralelas, con anáfora en “volverán” y una antítesis con “no volverán”. También hay un apóstrofe, porque le habla directamente a ella, y un símil al final: “como se adora a Dios ante su altar”. El tono es melancólico, pues es casi una despedida.",
+   "guion": "Ahora el Romanticismo, con la Rima LIII de Gustavo Adolfo Bécquer, la famosa “Volverán las oscuras golondrinas”. Se publicó en 1871, un año después de que se murió, gracias a sus amigos. El tema es el amor que se perdió: el poeta le dice a su ex que las golondrinas y las madreselvas van a regresar, pero lo que vivieron juntos ya no. En el contexto, Bécquer escribió en el Madrid de los años sesenta del siglo diecinueve, cuando el Romanticismo ya se estaba apagando; por eso su poesía es más íntima, corta y musical. En lo literario, el poema se arma en tres partes iguales, repite “volverán” al inicio, que es una anáfora, y lo choca con “no volverán”, que es una antítesis. También le habla directo a ella, que es un apóstrofe, y cierra con un símil: “como se adora a Dios ante su altar”. El tono es triste, pues es casi una despedida.",
    "cedula": "Rima LIII\nGustavo Adolfo Bécquer, 1871",
    "partes": [
     [
@@ -439,7 +439,7 @@ export const DATA = {
    "num": "VI",
    "periodo": "El Naturalismo",
    "fechas": "Fines del XIX y principios del XX",
-   "contexto": "Fines del XIX y principios del XX. El Naturalismo cuenta la vida sin adornos: la pobreza y el lugar donde naces deciden mucho. En la Galicia del campo, miles se iban a América para salir de la miseria.",
+   "contexto": "Fines del XIX y principios del XX. El Naturalismo cuenta la vida sin adornos: la pobreza y el lugar donde naces deciden mucho. En la Galicia del campo, miles se iban a América para salir de la pobreza.",
    "obra": "Las medias rojas",
    "sub": "Cuento de Emilia Pardo Bazán",
    "ficha": [
@@ -467,43 +467,43 @@ export const DATA = {
    "analisis": [
     [
      "Tema central",
-     "La violencia contra la mujer y el control del padre, contra el sueño de irse a América."
+     "La violencia contra la mujer y el control del papá, contra el sueño de irse a América."
     ],
     [
      "Contexto",
-     "Galicia rural: pobreza, trabajo en el campo y mucha emigración a Cuba y Argentina. Pardo Bazán defendió los derechos de la mujer."
+     "Galicia del campo: pobreza, trabajo en la tierra y un montón de gente emigrando a Cuba y Argentina. Pardo Bazán defendía los derechos de la mujer."
     ],
     [
      "Recursos",
-     "Narrador en tercera persona que lo cuenta todo crudo, diálogos con el habla del campo y un final seco. Las medias rojas son el símbolo: el deseo de libertad que termina en sangre."
+     "Narrador en tercera persona que lo cuenta todo crudo, diálogos con la forma de hablar del campo y un final seco. Las medias rojas son el símbolo: las ganas de ser libre que terminan en sangre."
     ]
    ],
    "ap_tema": "La construcción del género",
-   "ap_texto": "Ildara no decide nada sobre su vida ni sobre su cuerpo. Su papá la necesita para la tierra y la golpea cuando descubre que se quiere ir. O sea, su belleza era su salida y él la destruye. Pardo Bazán denuncia cómo trataban a las mujeres como propiedad.",
+   "ap_texto": "Ildara no decide nada de su vida ni de su cuerpo. Su papá la necesita para la tierra y la golpea cuando descubre que se quiere ir. O sea, su belleza era su boleto de salida y él se lo quita. Pardo Bazán denuncia cómo trataban a las mujeres como si fueran de alguien.",
    "cuadro": "Collage digital del equipo con fotos antiguas de Galicia y de la emigración. Lo único en color son las medias.",
    "resumen_tipo": "Línea del tiempo",
-   "guion": "Terminamos en el Naturalismo con “Las medias rojas”, un cuento de Emilia Pardo Bazán publicado en 1914. El tema central es la violencia contra la mujer: Ildara, una joven gallega, quiere emigrar a América, pero su padre descubre el plan por unas medias rojas y la golpea tan fuerte que le hace perder un ojo, y con eso pierde también su oportunidad de irse. El contexto es la Galicia rural de principios del siglo veinte, donde la pobreza obligaba a miles de personas a emigrar a Cuba o a Argentina. En los recursos literarios destaca el narrador en tercera persona, que lo cuenta todo de forma objetiva y cruda, como pide el Naturalismo. Las medias rojas son un símbolo, o sea, representan el deseo de libertad, pero al final se asocian con la sangre. El final es seco y abrupto, y eso hace que el golpe se sienta todavía más.",
+   "guion": "Terminamos en el Naturalismo con “Las medias rojas”, un cuento de Emilia Pardo Bazán de 1914. El tema es la violencia contra la mujer: Ildara, una muchacha gallega, se quiere ir a América, pero su papá descubre el plan por unas medias rojas y la golpea tan fuerte que pierde un ojo, y con eso pierde también su oportunidad de irse. El contexto es la Galicia del campo a principios del siglo veinte, donde la pobreza obligaba a miles de personas a irse a Cuba o a Argentina. En lo literario, el narrador va en tercera persona y lo cuenta todo crudo, como pide el Naturalismo. Las medias rojas son un símbolo, o sea, representan las ganas de ser libre, pero al final se juntan con la sangre. El final es seco y de golpe, y por eso pega todavía más.",
    "cedula": "Las medias rojas\nEmilia Pardo Bazán, 1914",
    "resumen": [
     {
      "label": "Planteamiento",
      "titulo": "La leña y las medias",
-     "texto": "Ildara llega con leña y prende el fuego. Al agacharse, su papá ve una media roja."
+     "texto": "Ildara llega con leña y prende el fuego. Cuando se agacha, su papá ve una media roja."
     },
     {
      "label": "Nudo",
      "titulo": "La mentira de los huevos",
-     "texto": "Ella dice que las compró vendiendo huevos. Él no le cree."
+     "texto": "Ella dice que las compró vendiendo huevos. Él no le cree nada."
     },
     {
      "label": "Nudo",
      "titulo": "El sueño de irse",
-     "texto": "En realidad el “gancho” le adelantó dinero para el barco a América."
+     "texto": "La verdad es que el “gancho” le adelantó dinero para el barco a América."
     },
     {
      "label": "Clímax",
      "titulo": "La golpiza",
-     "texto": "Para no quedarse solo con la tierra, el padre le pega en la cabeza y en la cara."
+     "texto": "Para no quedarse solo con la tierra, su papá le pega en la cabeza y en la cara."
     },
     {
      "label": "Desenlace",
