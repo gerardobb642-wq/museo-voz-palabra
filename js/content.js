@@ -300,7 +300,7 @@ export const DATA = {
    "analisis": [
     [
      "Tema central",
-     "Realidad contra ficción: un hombre lee tanto que decide vivir dentro de sus libros."
+     "Realidad contra ficción: un hombre lee tantos libros de caballerías que quiere ser un caballero andante, como los de sus historias."
     ],
     [
      "Contexto",
