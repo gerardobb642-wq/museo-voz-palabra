@@ -444,10 +444,20 @@ function infografia(s) {
     </div>`).join('')}</div>
     <div class="inf-side"><p><b>Métrica.</b> ${esc(s.metrica)}</p><p><b>Figuras.</b> ${esc(s.figuras)}</p><p><b>Voz poética.</b> ${esc(s.voz)}</p></div></div>`;
 }
-// líneas del tiempo que el equipo hizo como imagen
-const TL_IMG = { quijote: 'img/tl_quijote.jpg' };
+// líneas del tiempo hechas en Canva (imagen exportada)
+const TL_IMG = {
+  lucanor: 'la pregunta, el mozo pobre, la boda, la cena, ella obedece, el suegro y la moraleja',
+  lazarillo: 'una carta, nace en el río, el ciego, el clérigo, el escudero, más amos y el caso',
+  vencidos: 'los presagios, el pájaro del espejo, llegan en 1519, la matanza de 1520, el sitio de 1521, cae Tenochtitlan y el libro de 1959',
+  quijote: 'decide ser caballero, primera aventura, Sancho Panza, molinos de viento, continúa la aventura, regreso a casa, recupera la razón y muere',
+  becquer: 'rimas perdidas en 1868, las golondrinas, esas no, las madreselvas, esas tampoco, el amor y se publica en 1871',
+  medias: 'sale en 1914, la leña, las medias, los huevos, el gancho, la golpiza y sin barco',
+};
 function resumenVisual(s) {
-  if (TL_IMG[s.slug]) return `<a class="tl-img" href="${TL_IMG[s.slug]}" target="_blank" rel="noopener"><img src="${TL_IMG[s.slug]}" alt="Línea del tiempo de ${esc(s.obra)}: decide ser caballero, primera aventura, Sancho Panza, molinos de viento, continúa la aventura, regreso a casa, recupera la razón y muere."></a>`;
+  if (TL_IMG[s.slug]) {
+    const src = `img/tl_${s.slug}.jpg`;
+    return `<a class="tl-img" href="${src}" target="_blank" rel="noopener"><img src="${src}" alt="Línea del tiempo de ${esc(s.obra)}: ${esc(TL_IMG[s.slug])}."></a>`;
+  }
   return s.slug === 'becquer' ? infografia(s) : timeline(s.resumen);
 }
 async function audioFor(n) {
@@ -461,7 +471,7 @@ async function openObra(i) {
   card.innerHTML = `
     <div class="card-top"><h2 id="mTitle">${esc(s.obra)}</h2><button type="button" class="x" data-close>Cerrar</button></div>
     <div class="tabs" role="tablist">
-      <button role="tab" aria-selected="true" data-tab="1">${s.slug === 'becquer' ? 'Infografía' : 'Línea del tiempo'}</button>
+      <button role="tab" aria-selected="true" data-tab="1">${s.slug === 'becquer' && !TL_IMG.becquer ? 'Infografía' : 'Línea del tiempo'}</button>
       <button role="tab" aria-selected="false" data-tab="0">Ficha y análisis</button>
       <button role="tab" aria-selected="false" data-tab="2">Conexión AP</button>
     </div>
