@@ -51,14 +51,10 @@ button { font: inherit; color: inherit; cursor: pointer; }
 .tabs button[aria-selected="true"] { font-weight: 600; border-bottom-color: var(--red); }
 .card p, .card dd, .card dt { font-size: 19px; line-height: 1.5; }
 
-.ficha-grid { display: grid; grid-template-columns: minmax(0, .85fr) minmax(0, 1.6fr); gap: 44px; }
-dl.ficha { margin: 0; }
-dl.ficha div { padding: 9px 0; border-bottom: 1px solid #d9d4cb; }
-dl.ficha div:first-child { padding-top: 0; }
-dl.ficha dt { font-weight: 600; margin: 0; }
-dl.ficha dd { margin: 0; }
-.analisis p { margin: 0 0 14px; }
-.audio { margin-top: 20px; }
+.ficha-grid { display: grid; grid-template-columns: minmax(0, 1.6fr) minmax(0, 1fr); gap: 44px; align-items: start; }
+.ficha-img { display: block; cursor: zoom-in; }
+.ficha-img img { display: block; width: 100%; height: auto; border: 1px solid #d9d4cb; }
+.audio { margin: 0; }
 .audio h3 { font-size: 19px; font-weight: 600; margin: 0 0 8px; }
 .audio audio { width: 100%; }
 .audio p { margin: 0; }

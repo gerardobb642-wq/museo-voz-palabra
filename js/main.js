@@ -472,15 +472,14 @@ async function openObra(i) {
     <div class="card-top"><h2 id="mTitle">${esc(s.obra)}</h2><button type="button" class="x" data-close>Cerrar</button></div>
     <div class="tabs" role="tablist">
       <button role="tab" aria-selected="true" data-tab="1">${s.slug === 'becquer' && !TL_IMG.becquer ? 'Infografía' : 'Línea del tiempo'}</button>
-      <button role="tab" aria-selected="false" data-tab="0">Ficha y análisis</button>
+      <button role="tab" aria-selected="false" data-tab="0">Ficha</button>
       <button role="tab" aria-selected="false" data-tab="2">Conexión AP</button>
     </div>
     <section class="pane" data-pane="1">${resumenVisual(s)}</section>
     <section class="pane" data-pane="0" hidden><div class="ficha-grid">
-      <dl class="ficha">${s.ficha.map(([l, v]) => `<div><dt>${esc(l)}</dt><dd>${esc(v)}</dd></div>`).join('')}</dl>
-      <div class="analisis">${s.analisis.map(([l, v]) => `<p><b>${esc(l)}.</b> ${esc(v)}</p>`).join('')}
-        <div class="audio"><h3>Audioguía</h3><div id="audioSlot"></div><details><summary>Leer el comentario</summary><p>${esc(s.guion)}</p></details></div>
-      </div></div></section>
+      <a class="ficha-img" href="img/ficha_${s.slug}.png" target="_blank" rel="noopener"><img src="img/ficha_${s.slug}.png" alt="Ficha de ${esc(s.obra)}. ${esc(s.ficha.map(([l, v]) => `${l}: ${v}`).join('. '))}."></a>
+      <div class="audio"><h3>Audioguía</h3><div id="audioSlot"></div><details><summary>Leer el comentario</summary><p>${esc(s.guion)}</p></details></div>
+    </div></section>
     <section class="pane" data-pane="2" hidden><div class="ap">
       <div><p class="tema">${esc(s.ap_tema)}</p><p>${esc(s.ap_texto)}</p></div>
       <figure><img src="img/cuadro_${s.slug}.jpg" alt="Collage digital inspirado en ${esc(s.obra)}"><figcaption>${esc(s.cuadro)}</figcaption></figure>
