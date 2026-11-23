@@ -81,6 +81,9 @@ dl.ficha dd { margin: 0; }
   .card { padding: 22px 18px 26px; }
 }
 
+.tl-img { display: block; cursor: zoom-in; }
+.tl-img img { display: block; max-width: 100%; max-height: calc(100vh - 210px); width: auto; height: auto; margin: 0 auto; }
+
 /* infografía */
 .inf { display: grid; grid-template-columns: minmax(0, 2.1fr) minmax(0, 1fr); gap: 40px; }
 .inf-row { display: grid; grid-template-columns: 84px minmax(0, 1fr); gap: 16px; margin-bottom: 20px; }

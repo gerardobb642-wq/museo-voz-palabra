@@ -444,6 +444,12 @@ function infografia(s) {
     </div>`).join('')}</div>
     <div class="inf-side"><p><b>Métrica.</b> ${esc(s.metrica)}</p><p><b>Figuras.</b> ${esc(s.figuras)}</p><p><b>Voz poética.</b> ${esc(s.voz)}</p></div></div>`;
 }
+// líneas del tiempo que el equipo hizo como imagen
+const TL_IMG = { quijote: 'img/tl_quijote.jpg' };
+function resumenVisual(s) {
+  if (TL_IMG[s.slug]) return `<a class="tl-img" href="${TL_IMG[s.slug]}" target="_blank" rel="noopener"><img src="${TL_IMG[s.slug]}" alt="Línea del tiempo de ${esc(s.obra)}: decide ser caballero, primera aventura, Sancho Panza, molinos de viento, continúa la aventura, regreso a casa, recupera la razón y muere."></a>`;
+  return s.slug === 'becquer' ? infografia(s) : timeline(s.resumen);
+}
 async function audioFor(n) {
   for (const ext of ['m4a', 'mp3', 'wav', 'ogg']) {
     try { const r = await fetch(`audio/sala-${n}.${ext}`, { method: 'HEAD' }); if (r.ok) return `audio/sala-${n}.${ext}`; } catch (e) { /* sin audio */ }
@@ -455,16 +461,16 @@ async function openObra(i) {
   card.innerHTML = `
     <div class="card-top"><h2 id="mTitle">${esc(s.obra)}</h2><button type="button" class="x" data-close>Cerrar</button></div>
     <div class="tabs" role="tablist">
-      <button role="tab" aria-selected="true" data-tab="0">Ficha y análisis</button>
-      <button role="tab" aria-selected="false" data-tab="1">${s.slug === 'becquer' ? 'Infografía' : 'Línea del tiempo'}</button>
+      <button role="tab" aria-selected="true" data-tab="1">${s.slug === 'becquer' ? 'Infografía' : 'Línea del tiempo'}</button>
+      <button role="tab" aria-selected="false" data-tab="0">Ficha y análisis</button>
       <button role="tab" aria-selected="false" data-tab="2">Conexión AP</button>
     </div>
-    <section class="pane" data-pane="0"><div class="ficha-grid">
+    <section class="pane" data-pane="1">${resumenVisual(s)}</section>
+    <section class="pane" data-pane="0" hidden><div class="ficha-grid">
       <dl class="ficha">${s.ficha.map(([l, v]) => `<div><dt>${esc(l)}</dt><dd>${esc(v)}</dd></div>`).join('')}</dl>
       <div class="analisis">${s.analisis.map(([l, v]) => `<p><b>${esc(l)}.</b> ${esc(v)}</p>`).join('')}
         <div class="audio"><h3>Audioguía</h3><div id="audioSlot"></div><details><summary>Leer el comentario</summary><p>${esc(s.guion)}</p></details></div>
       </div></div></section>
-    <section class="pane" data-pane="1" hidden>${s.slug === 'becquer' ? infografia(s) : timeline(s.resumen)}</section>
     <section class="pane" data-pane="2" hidden><div class="ap">
       <div><p class="tema">${esc(s.ap_tema)}</p><p>${esc(s.ap_texto)}</p></div>
       <figure><img src="img/cuadro_${s.slug}.jpg" alt="Collage digital inspirado en ${esc(s.obra)}"><figcaption>${esc(s.cuadro)}</figcaption></figure>
