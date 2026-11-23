@@ -532,7 +532,7 @@ export const DATA = {
   "Sala IV: Gustave Doré, ilustraciones del Quijote, 1863; portada de la primera edición, Juan de la Cuesta, Madrid, 1605.",
   "Sala V: Valeriano Bécquer, Retrato de Gustavo Adolfo Bécquer, 1862; J. A. Naumann, golondrinas, lámina 145, siglo XIX; Flora Danica, madreselva, lámina 908, 1787.",
   "Sala VI: Eugenio Krapf (atribuida), Vigo, día de mercado, c. 1900; Thoman, Estación marítima de Vigo, c. 1920; Vida Gallega, Emigrantes del Val Miñor en Matanzas, Cuba, 1909.",
-  "Líneas del tiempo: hechas por el equipo en Canva; los stickers también los dibujó el equipo. Fotos de los círculos, además de las de arriba:",
+  "Líneas del tiempo: hechas por el equipo en Canva. Fotos de los círculos, además de las de arriba:",
   "Conde Lucanor: Codex Manesse, f. 71v, c. 1300; Jean Fouquet, Boda de Carlos IV y María de Luxemburgo, siglo XV; Clément Bardot, gallo, CC BY-SA 4.0; Herrero Uceda, Torre del castillo de Peñafiel, CC BY-SA 3.0.",
   "Lazarillo: Zarateman, Puente romano sobre el Tormes, CC0; Tamorlan, Verraco del puente de Salamanca, CC BY-SA 3.0; Juan Emilio Prades Bel, Hogaza de pan, CC BY 4.0; Diliff, Panorama de Toledo, CC BY 2.5.",
   "Visión de los vencidos: Luc Viatour, Grulla, CC BY-SA 3.0; anónimo, El encuentro de Cortés y Motecuhzoma, siglo XVII; Códice Durán, Matanza del Templo Mayor, siglo XVI; Juan Carlos Fonseca Mata, Ruinas del Templo Mayor, CC BY-SA 4.0; NotimexTV, Miguel León-Portilla, CC BY 3.0.",
