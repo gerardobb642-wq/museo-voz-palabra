@@ -53,7 +53,7 @@ export const DATA = {
     ]
    ],
    "ap_tema": "Las relaciones interpersonales",
-   "ap_texto": "Todo el cuento es de poder: el conde y su consejero, el papá y la hija, el esposo y la esposa. O sea, el mozo no se gana a su esposa platicando, se la gana con miedo. Hoy eso se lee fatal, pero en el siglo XIV era un consejo normal.",
+   "ap_texto": "Todo el cuento es de poder: el conde y su consejero, el papá y la hija, el esposo y la esposa. O sea, el mozo no se gana a su esposa platicando, se la gana con miedo. Hoy eso se ve fatal, pero en el siglo XIV era un consejo normal.",
    "cuadro": "Phébus, G. (ca. 1400). Livre de la chasse [Miniatura]. Wikimedia Commons.",
    "resumen_tipo": "Línea del tiempo",
    "guion": "Bienvenidos a la sala medieval. Aquí está el exemplo treinta y cinco de El conde Lucanor, de don Juan Manuel, de 1335. El tema es quién manda en el matrimonio: un joven pobre se casa con una mujer de carácter bien fuerte y, en la noche de bodas, mata a su perro, a su gato y a su caballo porque no le obedecen. Entonces ella, asustada, le hace caso en todo. Para entenderlo hay que ubicarse: es la Castilla del siglo catorce, una sociedad feudal y bien machista, y el libro era para aconsejar a los nobles. Mira, lo más interesante es cómo está armado: es un cuento dentro de otro, porque el conde le pide consejo a Patronio y él le contesta con esta historia. El narrador va en tercera persona, exagera todo y cierra con una moraleja en verso: si al comienzo no muestras quién eres, nunca podrás después.",
