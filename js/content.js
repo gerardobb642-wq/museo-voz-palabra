@@ -3,7 +3,7 @@ export const DATA = {
   "kicker": "Museo virtual",
   "title": "La voz y la palabra",
   "subtitle": "Viaje por la literatura en español",
-  "integrantes": "Gerardo F. Cavazos, [Nombre 2], [Nombre 3] y [Nombre 4]",
+  "integrantes": "Gerardo F. Cavazos, Juan José Castro, Fernanda Maldonado y Andrés Nájera",
   "curso": "AP Spanish Literature and Culture, Mtra. Alejandra Rodríguez. Prepa Anáhuac Monterrey, noviembre de 2026.",
   "entrar": "Entrar al museo →"
  },
