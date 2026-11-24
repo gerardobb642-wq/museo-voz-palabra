@@ -474,6 +474,7 @@ async function openObra(i) {
       <button role="tab" aria-selected="true" data-tab="1">${s.slug === 'becquer' && !TL_IMG.becquer ? 'Infografía' : 'Línea del tiempo'}</button>
       <button role="tab" aria-selected="false" data-tab="0">Ficha y análisis</button>
       <button role="tab" aria-selected="false" data-tab="2">Conexión AP</button>
+      <button role="tab" aria-selected="false" data-tab="3">Audioguía</button>
     </div>
     <section class="pane" data-pane="1">${resumenVisual(s)}</section>
     <section class="pane" data-pane="0" hidden>
@@ -481,12 +482,12 @@ async function openObra(i) {
         ${shot(`img/ficha_${s.slug}.png`, `Ficha de ${s.obra}. ${s.ficha.map(([l, v]) => `${l}: ${v}`).join('. ')}.`)}
         ${shot(`img/analisis_${s.slug}.png`, s.analisis.map(([l, v]) => `${l}. ${v}`).join(' '))}
       </div>
-      <div class="audio"><h3>Audioguía</h3><div id="audioSlot"></div></div>
     </section>
     <section class="pane" data-pane="2" hidden><div class="ap">
       ${shot(`img/ap_${s.slug}.png`, `Conexión AP: ${s.ap_tema}. ${s.ap_texto}`)}
       <figure><img src="img/cuadro_${s.slug}.jpg" alt="Collage digital inspirado en ${esc(s.obra)}"><figcaption><b>Fuente:</b> ${esc(s.cuadro)}</figcaption></figure>
     </div></section>
+    <section class="pane" data-pane="3" hidden><div class="audio" id="audioSlot"></div></section>
     <div class="musica"><button type="button" data-music>${musicOn ? 'Pausar música' : 'Poner música'}</button><p><b>Música:</b> ${esc(s.musica)}</p></div>`;
   card.querySelectorAll('[data-tab]').forEach(b => b.onclick = () => {
     card.querySelectorAll('[data-tab]').forEach(x => x.setAttribute('aria-selected', x === b));

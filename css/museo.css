@@ -54,12 +54,9 @@ button { font: inherit; color: inherit; cursor: pointer; }
 .shots { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: 32px; align-items: start; }
 .shot { display: block; cursor: zoom-in; }
 .shot img { display: block; width: 100%; height: auto; }
-.audio { margin-top: 24px; }
-.audio h3 { font-size: 19px; font-weight: 600; margin: 0 0 8px; }
+.audio { max-width: 640px; }
 .audio audio { width: 100%; }
 .audio p { margin: 0; }
-.audio details { margin-top: 10px; }
-.audio summary { cursor: pointer; font-size: 19px; }
 
 /* línea del tiempo */
 .tl { list-style: none; margin: 4px 0; padding: 0; display: grid; grid-template-rows: auto 3px auto; }
