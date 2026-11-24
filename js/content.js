@@ -4,7 +4,7 @@ export const DATA = {
   "title": "La voz y la palabra",
   "subtitle": "Viaje por la literatura en español",
   "integrantes": "Gerardo F. Cavazos, Juan José Castro, Fernanda Maldonado y Andrés Nájera",
-  "curso": "AP Spanish Literature and Culture, Mtra. Alejandra Rodríguez. Prepa Anáhuac Monterrey, noviembre de 2026.",
+  "curso": "AP Spanish Literature and Culture, maestra Alejandra Rodríguez. Prepa Anáhuac Monterrey, noviembre de 2026.",
   "entrar": "Entrar al museo →"
  },
  "salas": [
