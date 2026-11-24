@@ -51,11 +51,10 @@ button { font: inherit; color: inherit; cursor: pointer; }
 .tabs button[aria-selected="true"] { font-weight: 600; border-bottom-color: var(--red); }
 .card p, .card dd, .card dt { font-size: 19px; line-height: 1.5; }
 
-.ficha-grid { display: grid; grid-template-columns: minmax(0, 1.15fr) minmax(0, 1fr); gap: 40px; align-items: start; }
-.ficha-img { display: block; cursor: zoom-in; }
-.ficha-img img { display: block; width: 100%; height: auto; }
-.analisis p { margin: 0 0 14px; }
-.audio { margin-top: 20px; }
+.shots { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: 32px; align-items: start; }
+.shot { display: block; cursor: zoom-in; }
+.shot img { display: block; width: 100%; height: auto; }
+.audio { margin-top: 24px; }
 .audio h3 { font-size: 19px; font-weight: 600; margin: 0 0 8px; }
 .audio audio { width: 100%; }
 .audio p { margin: 0; }
@@ -94,11 +93,18 @@ button { font: inherit; color: inherit; cursor: pointer; }
 
 /* conexión AP */
 .ap { display: grid; grid-template-columns: minmax(0, 1.7fr) minmax(0, 1fr); gap: 44px; align-items: start; }
-.ap .tema { color: var(--red); font-weight: 600; font-size: clamp(28px, 3vw, 40px); line-height: 1.1; margin: 0 0 14px; }
 .ap figure { margin: 0; }
 .ap figure img { width: 100%; display: block; border: 10px solid #f6f3ec; outline: 5px solid var(--ink); }
-.ap figcaption { font-size: 17px; line-height: 1.45; margin-top: 14px; }
-@media (max-width: 860px) { .ap { grid-template-columns: 1fr; } }
+.ap figcaption, .musica { font-family: Arial, Helvetica, sans-serif; font-style: normal; font-size: 15px; line-height: 1.45; }
+.ap figcaption { margin-top: 14px; }
+@media (max-width: 860px) { .ap, .shots { grid-template-columns: 1fr; } }
+
+/* música */
+.musica { display: flex; align-items: baseline; gap: 14px; margin-top: 26px; padding-top: 14px; border-top: 1px solid #d9d4cb; }
+.musica p { margin: 0; font-size: 15px; }
+.musica button { flex: none; font-family: inherit; font-size: 15px; background: none; border: 1px solid var(--ink); padding: 4px 10px; }
+.musica button:hover { background: var(--ink); color: var(--white); }
+@media (max-width: 560px) { .musica { flex-direction: column; gap: 8px; } }
 
 /* referencias */
 .refs { display: grid; grid-template-columns: 1fr 1fr; gap: 44px; }

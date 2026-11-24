@@ -427,7 +427,7 @@ plano.addEventListener('click', e => { if (e.target === plano || e.target.closes
 // ---------------------------------------------------------------- ventanas
 const modal = document.getElementById('modal'), card = document.getElementById('card');
 const modalOpen = () => !modal.hidden || !plano.hidden;
-function closeAll() { modal.hidden = true; plano.hidden = true; const a = card.querySelector('audio'); a && a.pause(); }
+function closeAll() { modal.hidden = true; plano.hidden = true; const a = card.querySelector('audio'); a && a.pause(); music.pause(); }
 modal.addEventListener('click', e => { if (e.target === modal || e.target.closest('[data-close]')) closeAll(); });
 const esc = t => String(t).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
 
@@ -476,25 +476,53 @@ async function openObra(i) {
       <button role="tab" aria-selected="false" data-tab="2">Conexión AP</button>
     </div>
     <section class="pane" data-pane="1">${resumenVisual(s)}</section>
-    <section class="pane" data-pane="0" hidden><div class="ficha-grid">
-      <a class="ficha-img" href="img/ficha_${s.slug}.png" target="_blank" rel="noopener"><img src="img/ficha_${s.slug}.png" alt="Ficha de ${esc(s.obra)}. ${esc(s.ficha.map(([l, v]) => `${l}: ${v}`).join('. '))}."></a>
-      <div class="analisis">${s.analisis.map(([l, v]) => `<p><b>${esc(l)}.</b> ${esc(v)}</p>`).join('')}
-        <div class="audio"><h3>Audioguía</h3><div id="audioSlot"></div><details><summary>Leer el comentario</summary><p>${esc(s.guion)}</p></details></div>
+    <section class="pane" data-pane="0" hidden>
+      <div class="shots">
+        ${shot(`img/ficha_${s.slug}.png`, `Ficha de ${s.obra}. ${s.ficha.map(([l, v]) => `${l}: ${v}`).join('. ')}.`)}
+        ${shot(`img/analisis_${s.slug}.png`, s.analisis.map(([l, v]) => `${l}. ${v}`).join(' '))}
       </div>
-    </div></section>
+      <div class="audio"><h3>Audioguía</h3><div id="audioSlot"></div></div>
+    </section>
     <section class="pane" data-pane="2" hidden><div class="ap">
-      <div><p class="tema">${esc(s.ap_tema)}</p><p>${esc(s.ap_texto)}</p></div>
-      <figure><img src="img/cuadro_${s.slug}.jpg" alt="Collage digital inspirado en ${esc(s.obra)}"><figcaption>${esc(s.cuadro)}</figcaption></figure>
-    </div></section>`;
+      ${shot(`img/ap_${s.slug}.png`, `Conexión AP: ${s.ap_tema}. ${s.ap_texto}`)}
+      <figure><img src="img/cuadro_${s.slug}.jpg" alt="Collage digital inspirado en ${esc(s.obra)}"><figcaption><b>Fuente:</b> ${esc(s.cuadro)}</figcaption></figure>
+    </div></section>
+    <div class="musica"><button type="button" data-music>${musicOn ? 'Pausar música' : 'Poner música'}</button><p><b>Música:</b> ${esc(s.musica)}</p></div>`;
   card.querySelectorAll('[data-tab]').forEach(b => b.onclick = () => {
     card.querySelectorAll('[data-tab]').forEach(x => x.setAttribute('aria-selected', x === b));
     card.querySelectorAll('[data-pane]').forEach(p => p.hidden = p.dataset.pane !== b.dataset.tab);
   });
+  card.querySelector('[data-music]').onclick = () => { musicOn = music.paused; musicOn ? playMusic() : music.pause(); };
   modal.hidden = false; card.scrollTop = 0;
+  setMusic(s.slug);
   const url = await audioFor(i + 1), slot = card.querySelector('#audioSlot');
   if (slot) slot.innerHTML = url ? `<audio controls preload="metadata" src="${url}"></audio>` : `<p>Se sube pronto.</p>`;
+  const guia = slot && slot.querySelector('audio');
+  if (guia) guia.addEventListener('play', () => music.pause());
 }
+// captura del Google Doc, se abre en grande al tocarla
+function shot(src, alt) { return `<a class="shot" href="${src}" target="_blank" rel="noopener"><img src="${src}" alt="${esc(alt)}"></a>`; }
+
+// música de fondo: una pieza de la época de cada obra
+const music = new Audio(); music.loop = true; music.volume = 0.35;
+let musicOn = true;
+function musicLabel() { const b = card.querySelector('[data-music]'); if (b) b.textContent = music.paused ? 'Poner música' : 'Pausar música'; }
+music.addEventListener('play', musicLabel); music.addEventListener('pause', musicLabel);
+function playMusic() { music.play().catch(musicLabel); }
+function setMusic(slug) {
+  const src = `audio/musica/${slug}.m4a`;
+  if (!music.src.endsWith(src)) { music.src = src; } else { music.currentTime = 0; }
+  music.muted = false;
+  if (musicOn) playMusic(); else musicLabel();
+}
+// Safari solo deja sonar un audio que ya se tocó con un clic: lo "desbloqueamos" en el primer toque
+addEventListener('pointerdown', () => {
+  if (music.src) return;
+  music.muted = true; music.src = 'audio/musica/lucanor.m4a';
+  music.play().then(() => { if (music.muted) { music.pause(); music.muted = false; } }).catch(() => { music.muted = false; });
+}, { once: true });
 function openRefs() {
+  music.pause();
   card.innerHTML = `
     <div class="card-top"><h2 id="mTitle">Referencias</h2><button type="button" class="x" data-close>Cerrar</button></div>
     <div class="refs"><div><h3>Obras y fuentes (MLA)</h3>${DATA.refs.map(r => `<p>${esc(r)}</p>`).join('')}</div>

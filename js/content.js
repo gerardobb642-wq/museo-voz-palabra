@@ -54,7 +54,7 @@ export const DATA = {
    ],
    "ap_tema": "Las relaciones interpersonales",
    "ap_texto": "Todo el cuento es de poder: el conde y su consejero, el papá y la hija, el esposo y la esposa. O sea, el mozo no se gana a su esposa platicando, se la gana con miedo. Hoy eso se lee fatal, pero en el siglo XIV era un consejo normal.",
-   "cuadro": "Collage digital del equipo con miniaturas medievales: el perro, el gato y el caballo del cuento.",
+   "cuadro": "Phébus, G. (ca. 1400). Livre de la chasse [Miniatura]. Wikimedia Commons.",
    "resumen_tipo": "Línea del tiempo",
    "guion": "Bienvenidos a la sala medieval. Aquí está el exemplo treinta y cinco de El conde Lucanor, de don Juan Manuel, de 1335. El tema es quién manda en el matrimonio: un joven pobre se casa con una mujer de carácter bien fuerte y, en la noche de bodas, mata a su perro, a su gato y a su caballo porque no le obedecen. Entonces ella, asustada, le hace caso en todo. Para entenderlo hay que ubicarse: es la Castilla del siglo catorce, una sociedad feudal y bien machista, y el libro era para aconsejar a los nobles. Mira, lo más interesante es cómo está armado: es un cuento dentro de otro, porque el conde le pide consejo a Patronio y él le contesta con esta historia. El narrador va en tercera persona, exagera todo y cierra con una moraleja en verso: si al comienzo no muestras quién eres, nunca podrás después.",
    "cedula": "El conde Lucanor, exemplo XXXV\nDon Juan Manuel, 1335",
@@ -94,7 +94,8 @@ export const DATA = {
      "titulo": "La enseñanza",
      "texto": "“Si al comienzo no muestras quién eres, nunca podrás después cuando quisieres.”"
     }
-   ]
+   ],
+   "musica": "Alfonso X el Sabio. (siglo XIII). Santa Maria, Strela do Dia, cantiga 100 [Grabación de Makemi]. Wikimedia Commons. Dominio público."
   },
   {
    "slug": "lazarillo",
@@ -142,7 +143,7 @@ export const DATA = {
    ],
    "ap_tema": "La dualidad del ser",
    "ap_texto": "Casi nadie es lo que aparenta. El ciego te enseña pero es cruel, el clérigo predica pero es bien codo, y el escudero es el más alucín: presume honra y no tiene ni para comer. Al final Lázaro dice que le va increíble, pero la verdad su vida está bastante triste.",
-   "cuadro": "Collage digital del equipo con el Lazarillo de Goya, la portada de 1554 y unas uvas como las que Lázaro y el ciego se reparten.",
+   "cuadro": "Goya, F. de. (ca. 1808–1812). El Lazarillo de Tormes [Pintura]. Wikimedia Commons.",
    "resumen_tipo": "Línea del tiempo",
    "guion": "Ahora el Renacimiento, con el Lazarillo de Tormes, una novela anónima de 1554. El tema es sobrevivir: Lázaro es un niño pobre que va de amo en amo y aprende que, para comer, tiene que hacerse el vivo. Entonces el libro se vuelve una crítica a la sociedad, porque sus amos, un ciego, un clérigo y un escudero, son bien alucines: aparentan una cosa y son otra. El contexto es la España de Carlos V: un imperio enorme, pero con mucha hambre y con una obsesión por verse con honra. Por eso la Inquisición lo prohibió en 1559. En lo literario, está en primera persona, como una carta a “Vuestra Merced”, y es una autobiografía inventada. Tiene mucha ironía, o sea, Lázaro dice que está en la cumbre de su fortuna cuando la verdad su vida está bastante triste. Así nace la novela picaresca.",
    "cedula": "Lazarillo de Tormes\nAnónimo, 1554",
@@ -182,7 +183,8 @@ export const DATA = {
      "titulo": "El caso",
      "texto": "Termina de pregonero, casado con la criada de un arcipreste. Todos hablan, pero él dice que está en “la cumbre de toda buena fortuna”."
     }
-   ]
+   ],
+   "musica": "Encina, J. del. (ca. 1500). Fata la parte [Grabación de Collegium Vocale]. Wikimedia Commons. CC BY 3.0."
   },
   {
    "slug": "vencidos",
@@ -230,7 +232,7 @@ export const DATA = {
    ],
    "ap_tema": "Las sociedades en contacto",
    "ap_texto": "Aquí el contacto entre mexicas y españoles es un choque. Cortés en sus cartas lo cuenta como hazaña; los informantes de Sahagún cuentan presagios, viruela, hambre y una ciudad destruida. Pues la misma historia cambia por completo según quién la cuente.",
-   "cuadro": "Collage digital del equipo con dibujos del Códice Florentino, hechos por artistas nahuas en el siglo XVI.",
+   "cuadro": "Sahagún, B. de. (ca. 1577). Códice Florentino, libro XII [Manuscrito]. Wikimedia Commons.",
    "resumen_tipo": "Línea del tiempo",
    "guion": "Esta sala es diferente, porque aquí la historia la cuentan los que perdieron. Visión de los vencidos junta los testimonios en náhuatl que recogió fray Bernardino de Sahagún en el siglo dieciséis; Miguel León-Portilla los tradujo y los publicó en 1959. El tema es la conquista vista desde los mexicas: el miedo, la destrucción y el dolor de perder su ciudad. El contexto es clave, pues después de 1521 los frailes aprendieron náhuatl y apuntaron lo que se acordaban los ancianos. En lo literario, habla un “nosotros”, como si fuera todo el pueblo; los presagios funcionan como símbolos de la tragedia, y se repiten frases como en la poesía náhuatl. El tono es de lamento, o sea, de luto. Si lo comparas con las cartas de Cortés, te das cuenta de que la misma historia cambia según quién la cuente.",
    "cedula": "Visión de los vencidos\nInformantes de Sahagún, siglo XVI",
@@ -265,7 +267,8 @@ export const DATA = {
      "titulo": "Se ha perdido el pueblo mexica",
      "texto": "Cae Tenochtitlan. Los cantares tristes lo dicen: “era nuestra herencia una red de agujeros”."
     }
-   ]
+   ],
+   "musica": "Alvaz, L. (2019). Ocarina de barro, improvisación [Grabación]. Wikimedia Commons. CC BY-SA 4.0."
   },
   {
    "slug": "quijote",
@@ -313,7 +316,7 @@ export const DATA = {
    ],
    "ap_tema": "La creación literaria",
    "ap_texto": "Es una novela sobre leer novelas. Don Quijote se arma a sí mismo con lo que leyó: se cambia el nombre, le pone nombre a su caballo y se inventa a Dulcinea. Mira, hasta los personajes revisan sus libros y los queman. Por eso dicen que es la primera novela moderna.",
-   "cuadro": "Collage digital del equipo con grabados de Gustave Doré (1863) y la portada de 1605.",
+   "cuadro": "Doré, G. (1863). Ilustraciones para Don Quijote de la Mancha [Grabados]. Wikimedia Commons.",
    "resumen_tipo": "Línea del tiempo",
    "guion": "Llegamos al Barroco con Don Quijote de la Mancha, de Miguel de Cervantes, de 1605. El tema es realidad contra ficción: Alonso Quijano lee tantos libros de caballerías que se convence de que es un caballero andante, y por eso ve un castillo donde hay una venta y gigantes donde hay molinos. En el contexto, España estaba en crisis y había mucho desengaño, y Cervantes, que fue soldado y estuvo preso, sabía bien qué tan lejos están los ideales de la vida real. Mira, lo más moderno de la novela es el narrador: es burlón, dice que no se quiere acordar del nombre del lugar y hasta duda de sus propias fuentes. También destacan la parodia de los libros de caballerías, el humor y el contraste entre lo rebuscado que habla don Quijote y lo sencillo que habla Sancho. Por eso dicen que es la primera novela moderna.",
    "cedula": "Don Quijote de la Mancha\nMiguel de Cervantes, 1605",
@@ -358,7 +361,8 @@ export const DATA = {
      "titulo": "Los molinos",
      "texto": "Ataca unos molinos pensando que son gigantes y el viento lo tumba."
     }
-   ]
+   ],
+   "musica": "Victoria, T. L. de. (1585). O vos omnes [Grabación de The Tudor Consort]. Wikimedia Commons. CC BY 2.5."
   },
   {
    "slug": "becquer",
@@ -406,7 +410,7 @@ export const DATA = {
    ],
    "ap_tema": "El tiempo y el espacio",
    "ap_texto": "El poema junta dos tiempos. El de la naturaleza da vueltas: las golondrinas y las madreselvas regresan cada primavera. El del amor va en línea recta y ya no regresa. Ese choque es todo el poema.",
-   "cuadro": "Collage digital del equipo con el retrato que le pintó su hermano Valeriano y láminas antiguas de golondrinas y madreselvas.",
+   "cuadro": "Bécquer, V. (1862). Retrato de Gustavo Adolfo Bécquer [Pintura]. Wikimedia Commons.",
    "resumen_tipo": "Infografía",
    "guion": "Ahora el Romanticismo, con la Rima LIII de Gustavo Adolfo Bécquer, la famosa “Volverán las oscuras golondrinas”. Se publicó en 1871, un año después de que se murió, gracias a sus amigos. El tema es el amor que se perdió: el poeta le dice a su ex que las golondrinas y las madreselvas van a regresar, pero lo que vivieron juntos ya no. En el contexto, Bécquer escribió en el Madrid de los años sesenta del siglo diecinueve, cuando el Romanticismo ya se estaba apagando; por eso su poesía es más íntima, corta y musical. En lo literario, el poema se arma en tres partes iguales, repite “volverán” al inicio, que es una anáfora, y lo choca con “no volverán”, que es una antítesis. También le habla directo a ella, que es un apóstrofe, y cierra con un símil: “como se adora a Dios ante su altar”. El tono es triste, pues es casi una despedida.",
    "cedula": "Rima LIII\nGustavo Adolfo Bécquer, 1871",
@@ -432,7 +436,8 @@ export const DATA = {
    ],
    "metrica": "Seis estrofas de cuatro versos: tres de once sílabas y uno de siete. Rima asonante en “á” en los versos pares.",
    "figuras": "Anáfora, paralelismo, antítesis, apóstrofe, hipérbaton, personificación y símil.",
-   "voz": "Un “yo” que le habla a un “tú”: la persona que ya no está con él."
+   "voz": "Un “yo” que le habla a un “tú”: la persona que ya no está con él.",
+   "musica": "Sarasate, P. de. (1879). Romanza andaluza [Grabación de Carrie Rehkopf]. Wikimedia Commons. CC BY-SA 3.0."
   },
   {
    "slug": "medias",
@@ -480,7 +485,7 @@ export const DATA = {
    ],
    "ap_tema": "La construcción del género",
    "ap_texto": "Ildara no decide nada de su vida ni de su cuerpo. Su papá la necesita para la tierra y la golpea cuando descubre que se quiere ir. O sea, su belleza era su boleto de salida y él se lo quita. Pardo Bazán denuncia cómo trataban a las mujeres como si fueran de alguien.",
-   "cuadro": "Collage digital del equipo con fotos antiguas de Galicia y de la emigración. Lo único en color son las medias.",
+   "cuadro": "Krapf, E. (ca. 1900). Vigo, día de mercado [Fotografía]. Wikimedia Commons.",
    "resumen_tipo": "Línea del tiempo",
    "guion": "Terminamos en el Naturalismo con “Las medias rojas”, un cuento de Emilia Pardo Bazán de 1914. El tema es la violencia contra la mujer: Ildara, una muchacha gallega, se quiere ir a América, pero su papá descubre el plan por unas medias rojas y la golpea tan fuerte que pierde un ojo, y con eso pierde también su oportunidad de irse. El contexto es la Galicia del campo a principios del siglo veinte, donde la pobreza obligaba a miles de personas a irse a Cuba o a Argentina. En lo literario, el narrador va en tercera persona y lo cuenta todo crudo, como pide el Naturalismo. Las medias rojas son un símbolo, o sea, representan las ganas de ser libre, pero al final se juntan con la sangre. El final es seco y de golpe, y por eso pega todavía más.",
    "cedula": "Las medias rojas\nEmilia Pardo Bazán, 1914",
@@ -510,7 +515,8 @@ export const DATA = {
      "titulo": "El ojo perdido",
      "texto": "Pierde un diente y queda tuerta. Ya no la dejan subir al barco."
     }
-   ]
+   ],
+   "musica": "Courtier, R. (1916). Muiñeira, de la zarzuela Flor de cardo [Grabación de ca. 1929]. Wikimedia Commons. Dominio público."
   }
  ],
  "refs": [
@@ -537,6 +543,7 @@ export const DATA = {
   "Lazarillo: Zarateman, Puente romano sobre el Tormes, CC0; Tamorlan, Verraco del puente de Salamanca, CC BY-SA 3.0; Juan Emilio Prades Bel, Hogaza de pan, CC BY 4.0; Diliff, Panorama de Toledo, CC BY 2.5.",
   "Visión de los vencidos: Luc Viatour, Grulla, CC BY-SA 3.0; anónimo, El encuentro de Cortés y Motecuhzoma, siglo XVII; Códice Durán, Matanza del Templo Mayor, siglo XVI; Juan Carlos Fonseca Mata, Ruinas del Templo Mayor, CC BY-SA 4.0; NotimexTV, Miguel León-Portilla, CC BY 3.0.",
   "Rima LIII: Michael Gäbler, Golondrinas en su nido, CC BY-SA 3.0; Krzysztof Ziarnek, Madreselva, CC BY-SA 4.0; Francesco Hayez, El beso, 1859; CarlosVdeHabsburgo, Glorieta de Bécquer, Sevilla, CC BY-SA 4.0.",
-  "Las medias rojas: Dani Vázquez, A lareira, CC BY-SA 2.0; David Jackson, Par de calcetines, CC BY-SA 2.0 UK; Luis Miguel Bugallo Sánchez, Hórreo en Cambados, CC BY-SA 3.0."
+  "Las medias rojas: Dani Vázquez, A lareira, CC BY-SA 2.0; David Jackson, Par de calcetines, CC BY-SA 2.0 UK; Luis Miguel Bugallo Sánchez, Hórreo en Cambados, CC BY-SA 3.0.",
+  "Música de cada sala (Wikimedia Commons): cantiga 100 de Alfonso X, grabación de Makemi, dominio público; Juan del Encina, Fata la parte, Collegium Vocale, CC BY 3.0; Luis Alvaz, Ocarina de barro, CC BY-SA 4.0; Tomás Luis de Victoria, O vos omnes, The Tudor Consort, CC BY 2.5; Pablo de Sarasate, Romanza andaluza, Carrie Rehkopf, CC BY-SA 3.0; Ricardo Courtier, Muiñeira de Flor de cardo, dominio público."
  ]
 };
